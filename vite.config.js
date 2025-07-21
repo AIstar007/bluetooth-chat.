@@ -1,18 +1,15 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
-import fs from 'fs';
-import basicSsl from '@vitejs/plugin-basic-ssl';
 
 export default defineConfig({
   plugins: [
     react(),
-    basicSsl(),
     VitePWA({
-      registerType: 'autoUpdate', // ✅ HERE
+      registerType: 'autoUpdate',
 
       devOptions: {
-        enabled: true, // Enable service worker in dev
+        enabled: true,
       },
 
       manifest: {
@@ -39,10 +36,6 @@ export default defineConfig({
     }),
   ],
   server: {
-    https: {
-      key: fs.readFileSync('./cert/key.pem'),
-      cert: fs.readFileSync('./cert/cert.pem'),
-    },
-    port: 5173,
+    port: 5173, // ✅ no custom HTTPS
   },
 });
