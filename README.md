@@ -87,7 +87,7 @@ Make sure you are using **HTTPS** for production to enable Bluetooth + PWA.
 
 - Test with Chrome or Edge on Android (iOS doesn't fully support Web Bluetooth)
 - Make sure to serve over HTTPS
-- Use the browser's install prompt to save as an app
+- Use the browser's install prompt to save as an app (as shown below install icon in the browser to install it)
   <div style={{ textAlign: 'center' }}>
   <p><strong>Use the browser's install prompt to save as an app</strong></p>
   <img
