@@ -91,6 +91,3 @@ Make sure you are using **HTTPS** for production to enable Bluetooth + PWA.
 
 ---
 
-## 📜 License
-
-MIT License © 2025 Alen Thomas
