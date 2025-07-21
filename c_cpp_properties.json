@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "name": "ESP32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/Users/<YourUsername>/AppData/Local/Arduino15/packages/esp32/hardware/esp32/**",
+        "C:/Users/<YourUsername>/Documents/Arduino/libraries/**"
+      ],
+      "browse": {
+        "path": [
+          "C:/Users/<YourUsername>/AppData/Local/Arduino15/packages/esp32/hardware/esp32/**",
+          "C:/Users/<YourUsername>/Documents/Arduino/libraries"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "intelliSenseMode": "windows-gcc-x64",
+      "compilerPath": "C:/Program Files (x86)/Arduino/hardware/tools/avr/bin/avr-g++.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
