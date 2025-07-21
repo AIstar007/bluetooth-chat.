@@ -1,6 +1,0 @@
-{
-  "label": "Run Dev Server",
-  "type": "shell",
-  "command": "npm run dev",
-  "problemMatcher": []
-}
